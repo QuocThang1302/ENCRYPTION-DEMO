@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import EncryptPanel from "./components/EncryptPanel";
 import DecryptPanel from "./components/DecryptPanel";
 import ImageCryptoPanel from "./components/ImageCryptoPanel";
+import CryptoExplainPanel from "./components/CryptoExplainPanel";
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState("encrypt"); // 'encrypt' | 'decrypt' | 'image'
+  const [activeTab, setActiveTab] = useState("encrypt"); // 'encrypt' | 'decrypt' | 'image' | 'explain'
   const panelLayoutClass =
     activeTab === "image" ? "panels-single" : "panels-wide";
 
@@ -52,6 +53,13 @@ export default function App() {
             >
               Image
             </button>
+            <button
+              type="button"
+              className={`nav-tab ${activeTab === "explain" ? "active" : ""}`}
+              onClick={() => setActiveTab("explain")}
+            >
+              Explain
+            </button>
           </nav>
         </div>
       </header>
@@ -73,6 +81,7 @@ export default function App() {
           {activeTab === "encrypt" && <EncryptPanel />}
           {activeTab === "decrypt" && <DecryptPanel />}
           {activeTab === "image" && <ImageCryptoPanel />}
+          {activeTab === "explain" && <CryptoExplainPanel />}
         </div>
       </main>
 
