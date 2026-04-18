@@ -343,8 +343,8 @@ export default function CryptoExplainPanel() {
           </li>
           <li>
             <strong>decryptImageAES(encryptedText, password)</strong>: Kiểm tra
-            định dạng ENC$AESIMG$, tách MIME type, salt, IV và ciphertext,
-            giải mã dữ liệu ảnh, sau đó trả về đối tượng {`{ blob, mimeType }`}.
+            định dạng ENC$AESIMG$, tách MIME type, salt, IV và ciphertext, giải
+            mã dữ liệu ảnh, sau đó trả về đối tượng {`{ blob, mimeType }`}.
           </li>
         </ul>
         <pre className="code-block">
