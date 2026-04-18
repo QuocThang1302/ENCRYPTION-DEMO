@@ -1,0 +1,11 @@
+{
+  "name": "atpm",
+  "private": true,
+  "description": "Proxy scripts — app lives in ./Encryption",
+  "scripts": {
+    "dev": "npm run dev --prefix Encryption",
+    "build": "npm run build --prefix Encryption",
+    "preview": "npm run preview --prefix Encryption",
+    "install:encryption": "npm install --prefix Encryption"
+  }
+}

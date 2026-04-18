@@ -1,0 +1,46 @@
+<svg width="520" height="280" viewBox="0 0 520 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EAF1FF"/>
+      <stop offset="100%" stop-color="#F8FAFF"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2B5CF6"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="504" height="264" rx="22" fill="url(#bg)" stroke="#DCE8FF"/>
+
+  <rect x="40" y="58" width="120" height="78" rx="14" fill="#FFFFFF" stroke="#D7DEEB"/>
+  <rect x="200" y="58" width="120" height="78" rx="14" fill="#FFFFFF" stroke="#D7DEEB"/>
+  <rect x="360" y="58" width="120" height="78" rx="14" fill="#FFFFFF" stroke="#D7DEEB"/>
+
+  <rect x="40" y="166" width="440" height="54" rx="12" fill="#FFFFFF" stroke="#D7DEEB"/>
+
+  <circle cx="100" cy="96" r="16" fill="#EEF4FF" stroke="#2B5CF6"/>
+  <path d="M100 88v6l4 3" stroke="#2B5CF6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="88" y="108" width="24" height="16" rx="4" fill="#2B5CF6"/>
+
+  <rect x="236" y="84" width="48" height="26" rx="6" fill="#EEF4FF" stroke="#2B5CF6"/>
+  <path d="M246 97h28" stroke="#2B5CF6" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="398" y="80" width="44" height="34" rx="6" fill="#EEF4FF" stroke="#16A34A"/>
+  <path d="M410 98l7 7 14-14" stroke="#16A34A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M160 97h36" stroke="url(#flow)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M320 97h36" stroke="url(#flow)" stroke-width="5" stroke-linecap="round"/>
+
+  <circle cx="170" cy="97" r="4" fill="#2B5CF6"/>
+  <circle cx="350" cy="97" r="4" fill="#16A34A"/>
+
+  <text x="68" y="188" fill="#3A4153" font-size="14" font-family="DM Sans, Segoe UI, sans-serif">Input Data</text>
+  <text x="174" y="188" fill="#3A4153" font-size="14" font-family="DM Sans, Segoe UI, sans-serif">PBKDF2</text>
+  <text x="253" y="188" fill="#3A4153" font-size="14" font-family="DM Sans, Segoe UI, sans-serif">AES-GCM</text>
+  <text x="335" y="188" fill="#3A4153" font-size="14" font-family="DM Sans, Segoe UI, sans-serif">Ciphertext</text>
+
+  <path d="M132 184h28" stroke="#9CA3B0" stroke-width="2"/>
+  <path d="M232 184h18" stroke="#9CA3B0" stroke-width="2"/>
+  <path d="M312 184h18" stroke="#9CA3B0" stroke-width="2"/>
+</svg>
